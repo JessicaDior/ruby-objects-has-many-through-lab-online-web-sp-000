@@ -23,8 +23,8 @@ def songs
 end
 
 def genres
-  Genres.all.select do |genre|
-    genre.artist == self
+  songs.map do |song|
+    song.genre
   end
 end
 
