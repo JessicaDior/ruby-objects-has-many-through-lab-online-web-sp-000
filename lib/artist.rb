@@ -23,6 +23,9 @@ def songs
 end
 
 def genres
+  Genres.all.select do |genre|
+    genre.artist == self
+  end
 end
 
 end
