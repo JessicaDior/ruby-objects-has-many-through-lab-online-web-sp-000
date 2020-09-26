@@ -11,7 +11,7 @@ class Appointment
   end
 
   def new_appointment(date, doctor)
-    @@all
+    
   end
 
 end
