@@ -20,6 +20,7 @@ def songs
   Song.all.select  do |song|
     song.include? artist
     song
+  end
 end
 
 def genres
