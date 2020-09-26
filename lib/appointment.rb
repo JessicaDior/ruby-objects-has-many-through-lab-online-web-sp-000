@@ -10,10 +10,5 @@ class Appointment
     @@all << self
   end
 
-  def new_appointment(date, doctor)
-    @doctor = doctor
-    @date = date
-
-  end
 
 end
