@@ -18,7 +18,7 @@ end
 
 def songs
   Song.all.select do |song|
-   song == @name
+   song.artist == @name
     song
   end
 end
