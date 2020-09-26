@@ -10,8 +10,8 @@ class Appointment
     @@all << self
   end
 
-  def self.all
-   @@all
+  def new_appointment
+    @@all
   end
-
+  
 end
