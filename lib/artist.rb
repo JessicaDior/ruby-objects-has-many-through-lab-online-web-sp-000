@@ -17,8 +17,8 @@ def new_song(name, genre)
 end
 
 def songs
-  Song.all.select  do |song|
-    song.include? artist
+  Song.all.select do |song|
+    song.include? @name
     song
   end
 end
